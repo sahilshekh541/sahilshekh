@@ -9,7 +9,7 @@ import NavBar from "./components/NavBar";
 const App = () => {
   return (
     <main className="bg-slate-300/20 h-full">
-      <Router>
+      <Router basename="/sahilshekh">
         <NavBar />
         <Routes>
           <Route path="/" element={<Home />} />
